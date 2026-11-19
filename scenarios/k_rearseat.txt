@@ -1,0 +1,3 @@
+rearseat
+wait 3
+shot k_rear_view.png

@@ -1,0 +1,33 @@
+say START workshop liveries
+liveryupload MiG29DesertTan
+liveryupload MiG29DigitalGrey
+liveryupload MiG29DisplayBlue
+liveryupload MiG29FulcrumGrey
+liveryupload MiG29LIIGromov84
+liveryupload MiG29OVTSplinter917
+liveryupload MiG29Special2920
+liveryupload MiG29Tricolour741
+liveryupload MiG29White44
+click SINGLEPLAYER
+wait 3
+click Free Flight - Heartland
+wait 3
+click START MISSION
+wait 40
+click Boscali Defense Force
+wait 5
+base boscali_north
+wait 4
+click Select Aircraft
+wait 3
+pickac MiG29
+wait 6
+dropdowns
+pickopt OVT Splinter 917 (app data)
+wait 4
+shot ws_app_ovt.png
+pickopt 29+20 Special (app data)
+wait 4
+shot ws_app_2920.png
+say END
+quit

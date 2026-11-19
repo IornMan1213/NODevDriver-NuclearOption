@@ -1,0 +1,19 @@
+say START aircraft search
+click SINGLEPLAYER
+wait 3
+click Free Flight - Heartland
+wait 3
+click START MISSION
+wait 40
+click Boscali Defense Force
+wait 5
+base boscali_north
+wait 4
+click Select Aircraft
+wait 4
+acstar MiG-29SMT
+wait 1
+shot ac_4.png
+acstar MiG-29SMT
+say END
+quit

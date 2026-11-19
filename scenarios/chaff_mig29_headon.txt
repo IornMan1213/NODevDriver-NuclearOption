@@ -1,0 +1,3 @@
+include chaff_run.txt MiG29 0 8000 Standard
+say END
+quit

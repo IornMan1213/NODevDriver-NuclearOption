@@ -1,0 +1,21 @@
+say START team liveries bdf
+click SINGLEPLAYER
+wait 3
+click Free Flight - Heartland
+wait 3
+click START MISSION
+wait 40
+click Boscali Defense Force
+wait 5
+base boscali_north
+wait 4
+click Select Aircraft
+wait 3
+pickac MiG29
+wait 6
+dropdowns
+pickopt BDF Coastal
+wait 4
+shot team_bdf.png
+say END
+quit

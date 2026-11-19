@@ -1,0 +1,26 @@
+say START slat check MiG29
+click SINGLEPLAYER
+wait 3
+click Free Flight - Heartland
+wait 3
+click START MISSION
+wait 40
+click Boscali Defense Force
+wait 5
+base boscali_north
+wait 4
+click Select Aircraft
+wait 3
+pickac MiG29
+wait 6
+wait 2
+click Purchase
+wait 3
+click FLY
+wait 25
+hld
+hold 600
+wait 3
+hld
+say END
+quit

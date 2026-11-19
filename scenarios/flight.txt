@@ -1,0 +1,24 @@
+runway
+wait 3
+takeoff 1.0 270
+wait 40
+state
+shot test_$1_climb.png
+parts
+gtest 10
+wait 15
+parts
+setgear true
+wait 8
+runway
+wait 3
+rollout 250
+wait 3
+expect chute
+state
+shot test_$1_chute.png
+wait 35
+state
+expect nochute
+fps 5
+wait 7

@@ -1,0 +1,1 @@
+include partshots.txt FS-12

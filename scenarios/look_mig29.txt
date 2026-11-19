@@ -1,0 +1,6 @@
+say START MiG-29 shading views
+include spawn.txt MiG29
+runway
+wait 5
+include look.txt mig29
+say END

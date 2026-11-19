@@ -1,0 +1,17 @@
+say START intake debug
+include spawn.txt MiG29
+wait 5
+hold 30
+wait 4
+renderers MiG29_duct
+matinfo MiG29_duct
+matinfo MiG29_skin_intake
+view -0.66 -1.06 3.65 -0.84 -0.89 -2.16 40 dbg_all.png
+rvis MiG29_duct_ off
+view -0.66 -1.06 3.65 -0.84 -0.89 -2.16 40 dbg_noduct.png
+rvis MiG29_duct_ on
+rvis MiG29_skin_ off
+rvis MiG29_inner_ off
+view -0.66 -1.06 3.65 -0.84 -0.89 -2.16 40 dbg_ductonly.png
+say END
+quit

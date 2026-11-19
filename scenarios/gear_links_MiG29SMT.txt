@@ -1,0 +1,3 @@
+include gear_links.txt MiG29SMT
+say END
+quit

@@ -1,0 +1,3 @@
+include nov_check.txt MiG29SMT
+say END
+quit

@@ -1,0 +1,24 @@
+say START smt team liveries pala
+click SINGLEPLAYER
+wait 3
+click Free Flight - Heartland
+wait 3
+click START MISSION
+wait 40
+click Primeva
+wait 5
+base airbase_desert1
+wait 4
+click Select Aircraft
+wait 3
+pickac MiG29SMT
+wait 6
+dropdowns
+pickopt PALA Digital Sand
+wait 4
+shot smt_team_pala.png
+pickopt PALA Ash
+wait 4
+shot smt_team_pala2.png
+say END
+quit

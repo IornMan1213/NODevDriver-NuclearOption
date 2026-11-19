@@ -1,0 +1,37 @@
+say START smt workshop upload
+click WORKSHOP
+wait 3
+click UPLOAD
+wait 3
+pickopt Aircraft Livery
+wait 1
+click Next
+wait 3
+pickopt MiG29SMTVKSGrey26
+wait 1
+click Next
+wait 6
+uploadprep C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29SMTVKSGrey26.jpg C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29SMTVKSGrey26.txt
+wait 2
+shot ws_up_MiG29SMTVKSGrey26.png
+click Create New
+wait 60
+uploadstatus
+click UPLOAD
+wait 3
+pickopt Aircraft Livery
+wait 1
+click Next
+wait 3
+pickopt MiG29SMTDarkGrey52
+wait 1
+click Next
+wait 6
+uploadprep C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29SMTDarkGrey52.jpg C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29SMTDarkGrey52.txt
+wait 2
+shot ws_up_MiG29SMTDarkGrey52.png
+click Create New
+wait 60
+uploadstatus
+say END
+quit

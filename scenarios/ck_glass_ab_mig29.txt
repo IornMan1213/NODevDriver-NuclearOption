@@ -1,0 +1,3 @@
+include ck_glass_ab.txt MiG29
+say END
+quit

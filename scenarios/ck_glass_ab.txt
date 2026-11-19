@@ -1,0 +1,22 @@
+say START glass A/B $1
+include spawn.txt $1
+wait 5
+renderers MiG29_canopy
+shot ab_$1_spawn.png
+wait 2
+camstate orbit
+wait 3
+camstate cockpit
+wait 3
+shot ab_$1_switched.png
+wait 2
+rlayer MiG29_canopy_moving_int 14
+rlayer MiG29_canopy_windscreen_int 14
+wait 1
+shot ab_$1_intlayer.png
+wait 2
+rvis MiG29_canopy_moving_int off
+rvis MiG29_canopy_windscreen_int off
+wait 1
+shot ab_$1_noinner.png
+wait 2

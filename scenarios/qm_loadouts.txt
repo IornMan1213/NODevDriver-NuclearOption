@@ -1,0 +1,46 @@
+say START loadouts
+click SINGLEPLAYER
+wait 3
+click Free Flight - Heartland
+wait 3
+click START MISSION
+wait 40
+click Boscali Defense Force
+wait 5
+base boscali_north
+wait 4
+click Select Aircraft
+wait 3
+pickac MiG29
+wait 6
+pickfree Kh-29L
+pickfree R-77
+pickfree R-73
+wait 2
+svsave Strike Test
+svstatus Saved
+svinfo
+pick 3 0
+pick 4 0
+pick 5 0
+wait 2
+svinfo
+svload Strike Test
+wait 2
+svstatus Loaded
+svinfo
+shot ld_1_loaded.png
+ddopen 3
+wait 2
+shot ld_2_recent.png
+qmrows
+ddclose
+pickac MiG29SMT
+wait 6
+svload Strike Test
+svstatus No loadout
+pickac MiG29
+wait 6
+shot ld_3_back.png
+say END
+quit

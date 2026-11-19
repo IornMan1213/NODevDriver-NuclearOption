@@ -1,0 +1,6 @@
+say START rays MiG29
+include spawn.txt MiG29
+wait 3
+blastrays 19 -7 0 -2
+say END
+quit

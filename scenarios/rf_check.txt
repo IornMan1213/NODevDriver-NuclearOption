@@ -1,0 +1,33 @@
+say START review fixes $1
+include spawn.txt $1
+wait 5
+modcheck
+shot rf_$1_cockpit.png
+wait 2
+camstate orbit
+wait 3
+camstate cockpit
+wait 3
+shot rf_$1_cockpit_after.png
+wait 2
+say gear on the ground
+gear
+gtest 0
+wait 4
+say gear up in flight
+setgear false
+wait 8
+gear
+say gear down in flight
+setgear true
+wait 8
+gear
+say cobra
+assist true
+cobra 3
+wait 1
+assist false
+wait 4
+assist true
+shot rf_$1_flight.png
+wait 2

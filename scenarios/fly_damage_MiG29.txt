@@ -1,0 +1,1 @@
+include fly_damage.txt MiG29

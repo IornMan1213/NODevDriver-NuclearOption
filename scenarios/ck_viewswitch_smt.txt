@@ -1,0 +1,3 @@
+include ck_viewswitch.txt MiG29SMT
+say END
+quit

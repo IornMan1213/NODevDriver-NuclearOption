@@ -1,0 +1,15 @@
+say START chaff $1 course $2 chaff $3
+include spawn.txt $1
+wait 5
+gtest 0
+wait 4
+foe Multirole1 14000 0
+wait 3
+flyvec $2 230
+mslwatch
+chaffat $3
+cfgset iornman.mig29.instruments|Countermeasures|Chaff programme|$4
+wait 20
+shoot AAM2
+wait 40
+mslreport

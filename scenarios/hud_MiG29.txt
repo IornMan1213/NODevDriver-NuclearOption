@@ -1,0 +1,19 @@
+say START damage hud
+include spawn.txt MiG29
+wait 5
+hold 30
+wait 3
+shot hud_MiG29_0.png
+hurt wing_outer_L 60
+hurt radome 45
+hurt fin_L 70
+hurt lerx_R 55
+hurt nacelle_L 30
+wait 2
+shot hud_MiG29_1.png
+partbreak stabilator_L
+partbreak wingtip_R
+wait 2
+shot hud_MiG29_2.png
+say END
+quit

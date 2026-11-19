@@ -1,0 +1,1 @@
+include shading_jet.txt MiG29SMT

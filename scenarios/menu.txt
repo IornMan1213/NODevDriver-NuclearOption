@@ -1,0 +1,5 @@
+say START menu checks
+packcheck
+buttons
+shot test_menu.png
+say END

@@ -1,0 +1,68 @@
+say START performance $1
+include spawn.txt $1
+runway
+wait 3
+takeoff 1.0 270
+wait 24
+setgear false
+level 15 0 1 1 0
+throttle 1
+wait 25
+level 0 0 1 1 0
+wait 5
+state
+say PERF turn
+level 0 70 1 1 0
+wait 2
+state
+wait 2
+state
+wait 2
+state
+wait 2
+state
+wait 2
+state
+wait 2
+state
+wait 2
+state
+wait 2
+state
+wait 2
+state
+level 0 0 1 1 0
+wait 8
+say PERF accel
+wait 2.5
+state
+wait 2.5
+state
+wait 2.5
+state
+wait 2.5
+state
+wait 2.5
+state
+throttle 0.95
+say PERF roll
+level 0 0 1 0 1
+wait 0.2
+state
+wait 0.2
+state
+wait 0.2
+state
+wait 0.2
+state
+wait 0.2
+state
+wait 0.2
+state
+wait 0.2
+state
+wait 0.2
+state
+level off
+say END
+quit

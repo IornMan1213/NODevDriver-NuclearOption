@@ -1,0 +1,36 @@
+say START two-seater $1
+click SINGLEPLAYER
+wait 3
+click Free Flight - Heartland
+wait 3
+click START MISSION
+wait 40
+click Boscali Defense Force
+wait 5
+base boscali_north
+wait 4
+click Select Aircraft
+wait 3
+pickac $1
+wait 6
+shot ts_$1_select.png
+camat ~MiG29_canopy_glass -3 0.6 0.5 45 ts_$1_canopy_left.png
+camat ~MiG29_canopy_glass 0 1.6 3.5 45 ts_$1_canopy_front.png
+camat ~MiG29_canopy_glass 0 1.2 -3.5 45 ts_$1_canopy_rear.png
+click Purchase
+wait 3
+click FLY
+wait 25
+shot ts_$1_pilot_view.png
+view 0 0.66 3.90 0 0.45 4.75 75 ts_$1_front_eye.png
+view 0 0.86 2.80 0 0.55 3.55 75 ts_$1_rear_eye.png
+view 0 0.86 2.80 0 0.75 4.60 60 ts_$1_rear_eye_ahead.png
+view 0 0.86 2.80 -0.45 0.35 3.10 75 ts_$1_rear_eye_left.png
+view 0 0.86 2.80 0.45 0.35 3.10 75 ts_$1_rear_eye_right.png
+runway
+wait 5
+include look.txt $1
+camat ~MiG29_canopy_glass 2.2 0.5 0.0 50 ts_$1_canopy_side_close.png
+camat ~MiG29_canopy_glass 0 0.9 -2.2 50 ts_$1_canopy_rear_close.png
+include flight.txt $1
+say END

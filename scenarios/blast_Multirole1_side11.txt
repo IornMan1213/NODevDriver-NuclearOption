@@ -1,0 +1,9 @@
+say START blast Multirole1 side11
+include spawn.txt Multirole1
+wait 3
+parts
+blasttest 19 -11 0 -2
+wait 6
+parts
+say END
+quit

@@ -1,0 +1,37 @@
+say START station view
+click SINGLEPLAYER
+wait 3
+click Free Flight - Heartland
+wait 3
+click START MISSION
+wait 40
+click Boscali Defense Force
+wait 5
+base boscali_north
+wait 4
+click Select Aircraft
+wait 3
+pickac MiG29
+wait 6
+shot sv_1_mig29.png
+svinfo
+pickfree Kh-29L
+wait 2
+shot sv_2_kh29.png
+svinfo
+click Middle Pylons
+wait 2
+shot sv_3_open.png
+qmrows
+ddclose
+wait 1
+pickac MiG29SMT
+wait 6
+shot sv_4_smt.png
+svinfo
+pickac Multirole1
+wait 6
+shot sv_5_stock.png
+svinfo
+say END
+quit

@@ -1,0 +1,65 @@
+say START quartermaster
+click SINGLEPLAYER
+wait 3
+click Free Flight - Heartland
+wait 3
+click START MISSION
+wait 40
+click Boscali Defense Force
+wait 5
+base boscali_north
+wait 4
+click Select Aircraft
+wait 3
+pickac MiG29
+wait 6
+dropdowns
+ddopen 3
+wait 2
+shot qm_1_open.png
+qmrows
+click A-A
+wait 1
+shot qm_2_aa.png
+qmrows
+click All
+type laser
+wait 1
+shot qm_3_laser.png
+qmrows
+type s-8
+wait 1
+qmrows 1
+type taiga kh
+wait 1
+shot qm_4_taiga_kh.png
+qmrows
+type kh-29l
+wait 1
+qmrows 1
+submit
+wait 2
+dropdowns
+ddopen 3
+wait 2
+type -
+click Bombs
+wait 1
+shot qm_5_bombs.png
+qmrows
+ddclose
+wait 1
+ddopen 5
+wait 2
+shot qm_6_outer.png
+qmrows
+ddclose
+ddopen 0
+wait 2
+type white
+wait 1
+shot qm_7_livery.png
+qmrows 1
+ddclose
+say END
+quit

@@ -1,0 +1,133 @@
+say START workshop upload rest
+click WORKSHOP
+wait 3
+click UPLOAD
+wait 3
+pickopt Aircraft Livery
+wait 1
+click Next
+wait 3
+pickopt MiG29DesertTan
+wait 1
+click Next
+wait 6
+uploadprep C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29DesertTan.jpg C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29DesertTan.txt
+wait 2
+shot ws_up_MiG29DesertTan.png
+click Create New
+wait 60
+uploadstatus
+click UPLOAD
+wait 3
+pickopt Aircraft Livery
+wait 1
+click Next
+wait 3
+pickopt MiG29DigitalGrey
+wait 1
+click Next
+wait 6
+uploadprep C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29DigitalGrey.jpg C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29DigitalGrey.txt
+wait 2
+shot ws_up_MiG29DigitalGrey.png
+click Create New
+wait 60
+uploadstatus
+click UPLOAD
+wait 3
+pickopt Aircraft Livery
+wait 1
+click Next
+wait 3
+pickopt MiG29DisplayBlue
+wait 1
+click Next
+wait 6
+uploadprep C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29DisplayBlue.jpg C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29DisplayBlue.txt
+wait 2
+shot ws_up_MiG29DisplayBlue.png
+click Create New
+wait 60
+uploadstatus
+click UPLOAD
+wait 3
+pickopt Aircraft Livery
+wait 1
+click Next
+wait 3
+pickopt MiG29Special2920
+wait 1
+click Next
+wait 6
+uploadprep C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29Special2920.jpg C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29Special2920.txt
+wait 2
+shot ws_up_MiG29Special2920.png
+click Create New
+wait 60
+uploadstatus
+click UPLOAD
+wait 3
+pickopt Aircraft Livery
+wait 1
+click Next
+wait 3
+pickopt MiG29Tricolour741
+wait 1
+click Next
+wait 6
+uploadprep C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29Tricolour741.jpg C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29Tricolour741.txt
+wait 2
+shot ws_up_MiG29Tricolour741.png
+click Create New
+wait 60
+uploadstatus
+click UPLOAD
+wait 3
+pickopt Aircraft Livery
+wait 1
+click Next
+wait 3
+pickopt MiG29OVTSplinter917
+wait 1
+click Next
+wait 6
+uploadprep C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29OVTSplinter917.jpg C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29OVTSplinter917.txt
+wait 2
+shot ws_up_MiG29OVTSplinter917.png
+click Create New
+wait 60
+uploadstatus
+click UPLOAD
+wait 3
+pickopt Aircraft Livery
+wait 1
+click Next
+wait 3
+pickopt MiG29White44
+wait 1
+click Next
+wait 6
+uploadprep C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29White44.jpg C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29White44.txt
+wait 2
+shot ws_up_MiG29White44.png
+click Create New
+wait 60
+uploadstatus
+click UPLOAD
+wait 3
+pickopt Aircraft Livery
+wait 1
+click Next
+wait 3
+pickopt MiG29LIIGromov84
+wait 1
+click Next
+wait 6
+uploadprep C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29LIIGromov84.jpg C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29LIIGromov84.txt
+wait 2
+shot ws_up_MiG29LIIGromov84.png
+click Create New
+wait 60
+uploadstatus
+say END
+quit

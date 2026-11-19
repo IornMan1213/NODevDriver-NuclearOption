@@ -1,0 +1,31 @@
+say START lines Multirole1
+include spawn.txt Multirole1
+wait 3
+hold 40
+wait 2
+say POINT -7 0 -2
+blastlines 19 -7 0 -2
+say POINT -7 -0.42 -2
+blastlines 19 -7 -0.42 -2
+say POINT -11 0 -2
+blastlines 19 -11 0 -2
+say POINT -5 0 -2
+blastlines 19 -5 0 -2
+say POINT 0 -6 -1
+blastlines 19 0 -6 -1
+say POINT 0 6 -1
+blastlines 19 0 6 -1
+say POINT 0 0 12
+blastlines 19 0 0 12
+say POINT 0 0 -12
+blastlines 19 0 0 -12
+say POINT -6 0 6
+blastlines 19 -6 0 6
+say POINT -6 -3 -4
+blastlines 19 -6 -3 -4
+say POINT -4 3 -5
+blastlines 19 -4 3 -5
+say POINT -9 -2 0
+blastlines 19 -9 -2 0
+say END
+quit

@@ -1,0 +1,10 @@
+pickac $1
+wait 6
+shot sel_$1_screen.png
+camat ~MiG29_canopy_glass -3 0.6 0.5 45 sel_$1_canopy_left.png
+camat ~MiG29_canopy_glass 3 0.6 0.5 45 sel_$1_canopy_right.png
+camat ~MiG29_canopy_glass 0 1.6 3.5 45 sel_$1_canopy_front.png
+camat ~MiG29_canopy_glass 0 1.2 -3.5 45 sel_$1_canopy_rear.png
+camat ~MiG29_canopy_glass 0 -0.3 0.1 75 sel_$1_canopy_from_below.png
+liveryshots MiG29_canopy liv_$1
+wait 60

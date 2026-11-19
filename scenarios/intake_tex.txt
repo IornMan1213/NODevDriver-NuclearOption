@@ -1,0 +1,18 @@
+say START intake texture test
+include spawn.txt MiG29
+wait 5
+hold 30
+wait 4
+skinprefix MiG29_duct
+skintex _Basecolor BepInEx/devtex/stripes.png
+skintex _Livery BepInEx/devtex/stripes.png
+wait 1
+view -0.72 -1.0 1.6 -0.78 -0.62 -2.86 50 tex_stripes_inside.png
+view -0.66 -1.06 3.65 -0.84 -0.89 -2.16 40 tex_stripes_close.png
+skintex _Basecolor BepInEx/devtex/grad_flipped.png
+skintex _Livery BepInEx/devtex/grad_flipped.png
+wait 1
+view -0.72 -1.0 1.6 -0.78 -0.62 -2.86 50 tex_flip_inside.png
+view -0.66 -1.06 3.65 -0.84 -0.89 -2.16 40 tex_flip_close.png
+say END
+quit

@@ -1,0 +1,6 @@
+say START SMT cockpit views $1
+include spawn.txt MiG29SMT
+wait 5
+include cockpit_views.txt $1
+wait 3
+say END

@@ -1,0 +1,34 @@
+say START wingtip pods $1
+click SINGLEPLAYER
+wait 3
+click Free Flight - Heartland
+wait 3
+click START MISSION
+wait 40
+click Boscali Defense Force
+wait 5
+base boscali_north
+wait 4
+click Select Aircraft
+wait 3
+pickac $1
+wait 3
+pickopt Wingtip Flare + Chaff
+wait 2
+dropdowns
+click Purchase
+wait 3
+click FLY
+wait 25
+packcheck
+cm IR Flares 150
+cm Radar Chaff 150
+runway
+wait 5
+view -7.5 0.8 -1.2 -5.65 -0.49 -3.6 30 pod_$1_left.png
+view 7.5 0.8 -1.2 5.65 -0.49 -3.6 30 pod_$1_right.png
+view 0 22 -3 0 0 -3 45 pod_$1_top.png
+podfire 2
+wait 3
+cm IR Flares
+cm Radar Chaff

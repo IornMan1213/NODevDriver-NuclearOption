@@ -1,0 +1,7 @@
+say START antennas and countermeasures (SMT)
+include spawn.txt MiG29SMT
+packcheck
+runway
+wait 5
+include antenna_views.txt MiG29SMT
+say END

@@ -1,0 +1,39 @@
+say START drop tank MiG29
+click SINGLEPLAYER
+wait 3
+click Free Flight - Heartland
+wait 3
+click START MISSION
+wait 40
+click Boscali Defense Force
+wait 5
+base boscali_north
+wait 4
+click Select Aircraft
+wait 3
+pickac MiG29
+wait 6
+wait 2
+pickin 1 Empty
+wait 1
+pickin 2 PTB-1500
+wait 1
+pickin 3 Auger
+wait 1
+pickin 4 Empty
+wait 1
+pickin 5 Empty
+wait 1
+pickin 6 Flare + Chaff
+wait 2
+dropdowns
+click Purchase
+wait 3
+click FLY
+wait 25
+weps
+tanktest 1845 10 400
+wait 50
+parts
+say END
+quit

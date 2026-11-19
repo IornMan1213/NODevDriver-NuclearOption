@@ -1,0 +1,23 @@
+say START damage patches $1
+include spawn.txt $1
+wait 5
+hold 30
+wait 3
+camat @ac -6 4 3 40 patch_$1_100_side.png
+camat @ac 0 9 -1 50 patch_$1_100_top.png
+hurt all 30
+wait 1
+camat @ac -6 4 3 40 patch_$1_70_side.png
+camat @ac 0 9 -1 50 patch_$1_70_top.png
+hurt all 30
+wait 1
+camat @ac -6 4 3 40 patch_$1_40_side.png
+camat @ac 0 9 -1 50 patch_$1_40_top.png
+fire -3.6 3 -2.8 -3.6 -2 -2.8 1
+fire -3.7 3 -2.6 -3.7 -2 -2.6 1
+fire -3.5 3 -3.0 -3.5 -2 -3.0 1
+fire -3.8 3 -2.9 -3.8 -2 -2.9 1
+wait 1
+view -3.2 1.6 -1.6 -3.65 -0.4 -2.8 45 patch_$1_holes_close.png
+say END
+quit

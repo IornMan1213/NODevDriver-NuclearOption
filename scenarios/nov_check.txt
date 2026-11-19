@@ -1,0 +1,25 @@
+say START november check $1
+include spawn.txt $1
+wait 5
+modcheck
+radarinfo
+pylons check
+view 1.6 -1.4 3.4 0 -1.65 2.1 40 nov_$1_nose.png
+view -3.2 -1.4 -0.2 -1.6 -1.8 -1.48 40 nov_$1_main.png
+view 0 -0.2 6 0 -1.2 2.5 55 nov_$1_front.png
+wait 2
+gtest 0
+wait 4
+setgear false
+wait 8
+gear
+view 0 -3 3 0 -0.6 2.0 50 nov_$1_stowed.png
+setgear true
+wait 8
+gear
+assist true
+cobra 3
+wait 1
+assist false
+wait 4
+assist true

@@ -1,0 +1,7 @@
+camat @ac 7 6 -9 35 look_$1_top_rear_right.png
+camat @ac -7 6 -9 35 look_$1_top_rear_left.png
+camat @ac 0 14 -1 40 look_$1_top.png
+camat @ac 9 0.6 1 40 look_$1_side_right.png
+camat @ac -6 4 10 35 look_$1_front_left.png
+camat @ac 3 2.5 -2 22 look_$1_close_right.png
+camat @ac -3 2.5 -2 22 look_$1_close_left.png

@@ -1,0 +1,22 @@
+say START gear detail $1
+include spawn.txt $1
+wait 5
+modcheck
+pos gearLight_F
+pos MiG29_nose
+pos gear_F
+view 0 -1.0 4.2 0 -1.2 2.2 40 gd_$1_front.png
+view 1.6 -1.4 3.4 0 -1.65 2.1 40 gd_$1_nose.png
+view 0.7 -1.3 3.2 0 -1.35 2.2 35 gd_$1_lamp.png
+view -0.9 -1.6 2.1 0 -1.6 2.1 45 gd_$1_side.png
+view -0.8 -1.7 0.9 0 -1.5 2.2 40 gd_$1_rear.png
+view -3.2 -1.4 -0.2 -1.6 -1.8 -1.48 40 gd_$1_main.png
+gtest 0
+wait 4
+setgear false
+wait 8
+gear
+view 0 -3 3 0 -0.6 2.0 50 gd_$1_stowed.png
+setgear true
+wait 8
+gear

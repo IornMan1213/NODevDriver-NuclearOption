@@ -1,0 +1,5 @@
+shot ck_$1_game.png
+wait 2
+view 0 0.80 3.55 0 0.30 4.75 75 ck_$1_front.png
+view 0 0.80 3.55 -0.50 0.05 4.05 75 ck_$1_left.png
+view 0 0.80 3.55 0.50 0.05 4.05 75 ck_$1_right.png

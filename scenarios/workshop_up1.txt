@@ -1,0 +1,21 @@
+say START workshop upload 1
+click WORKSHOP
+wait 3
+click UPLOAD
+wait 3
+pickopt Aircraft Livery
+wait 1
+click Next
+wait 3
+pickopt MiG29FulcrumGrey
+wait 1
+click Next
+wait 6
+uploadprep C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29FulcrumGrey.jpg C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29FulcrumGrey.txt
+wait 2
+shot ws_up_MiG29FulcrumGrey.png
+click Create New
+wait 60
+uploadstatus
+say END
+quit

@@ -1,0 +1,6 @@
+say START rays Multirole1
+include spawn.txt Multirole1
+wait 3
+blastrays 19 -7 0 -2
+say END
+quit

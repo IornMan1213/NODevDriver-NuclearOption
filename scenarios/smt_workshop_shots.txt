@@ -1,0 +1,21 @@
+say START smt workshop shots
+click SINGLEPLAYER
+wait 3
+click Free Flight - Heartland
+wait 3
+click START MISSION
+wait 40
+click Boscali Defense Force
+wait 5
+base boscali_north
+wait 4
+click Select Aircraft
+wait 3
+pickac MiG29SMT
+wait 6
+dropdowns
+wait 6
+liveryshots MiG29_canopy smtws VKS
+wait 45
+say END
+quit

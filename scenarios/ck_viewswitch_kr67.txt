@@ -1,0 +1,3 @@
+include ck_viewswitch.txt Multirole1
+say END
+quit

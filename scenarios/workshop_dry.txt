@@ -1,0 +1,24 @@
+say START workshop dry run
+click WORKSHOP
+wait 3
+click UPLOAD
+wait 3
+dropdowns
+pickopt Aircraft Livery
+wait 1
+click Next
+wait 3
+dropdowns
+pickopt MiG29FulcrumGrey
+wait 1
+click Next
+wait 6
+buttons
+uploaddump
+uploadprep C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29FulcrumGrey.jpg C:/users/steamuser/AppData/LocalLow/Shockfront/NuclearOption/WorkshopUpload/MiG29FulcrumGrey.txt
+wait 2
+uploaddump
+buttons
+shot ws_upload_dry.png
+say END
+quit

@@ -1,0 +1,83 @@
+say START damage tour $1
+include spawn.txt $1
+wait 5
+hold 30
+wait 3
+camat @ac -10 4 8 40 tour_$1_00_intact.png
+camat @ac 0 15 -1 55 tour_$1_01_intact_top.png
+camat @ac 7 -5 -9 45 tour_$1_02_intact_under.png
+say cannon hits on the left wing and the spine
+fire -2.3 3 -1.2 -2.3 -2 -1.2 4
+fire -2.8 3 -1.8 -2.8 -2 -1.8 4
+fire -3.3 3 -2.2 -3.3 -2 -2.2 4
+fire -4.2 3 -2.4 -4.2 -2 -2.4 4
+fire -1.1 3 -0.6 -1.1 -2 -0.6 4
+fire -0.3 3 0.4 -0.3 -2 0.4 4
+fire -0.3 3 -2.4 -0.3 -2 -2.4 4
+say seam checks
+fire -0.45 3 -4.0 -0.55 -2 -4.0 1
+fire 0.45 3 -1.0 0.55 -2 -1.0 1
+fire -0.55 3 -4.0 -0.45 -2 -4.0 1
+fire 0.55 3 -1.0 0.45 -2 -1.0 1
+wait 2
+camat @ac -6 6 -0.5 40 tour_$1_03_hits.png
+say heavy damage on the left centre wing and nacelle
+hurt centre_wing_L 85
+hurt nacelle_L 85
+wait 2
+camat @ac -6 6 -0.5 40 tour_$1_04_damaged.png
+say break sequence
+camat @ac -12 6 10 45 tour_$1_10_seq.png
+partbreak wing_outer_L
+wait 0.4
+camat @ac -12 6 10 45 tour_$1_11_seq.png
+wait 1.2
+camat @ac -12 6 10 45 tour_$1_12_seq.png
+camat @ac -6 4 -1 32 tour_$1_13_outer_wing_rib.png
+partbreak radome
+wait 0.4
+camat @ac -12 6 10 45 tour_$1_14_seq.png
+wait 1.2
+camat @ac -12 6 10 45 tour_$1_15_seq.png
+camat @ac -3 1.5 9 35 tour_$1_16_radome_bay.png
+partbreak fin_L
+wait 0.4
+camat @ac -12 6 10 45 tour_$1_17_seq.png
+wait 1.2
+camat @ac -12 6 10 45 tour_$1_18_seq.png
+camat @ac -6 5 -8 35 tour_$1_19_fin_root.png
+partbreak stabilator_L
+wait 0.4
+camat @ac -12 6 10 45 tour_$1_20_seq.png
+partbreak lerx_L
+wait 0.4
+camat @ac -12 6 10 45 tour_$1_21_seq.png
+wait 1.2
+camat @ac -12 6 10 45 tour_$1_22_seq.png
+camat @ac -5 4 4 35 tour_$1_23_lerx_off.png
+partbreak wing_inner_R
+wait 0.4
+camat @ac -12 6 10 45 tour_$1_24_seq.png
+wait 1.2
+camat @ac -12 6 10 45 tour_$1_25_seq.png
+camat @ac 6 4 -1 35 tour_$1_26_root_rib.png
+partbreak nozzle_L
+wait 0.4
+camat @ac -12 6 10 45 tour_$1_27_seq.png
+camat @ac -3 2 -10 35 tour_$1_28_nozzle_off.png
+partbreak intake_L
+wait 0.4
+camat @ac -12 6 10 45 tour_$1_29_seq.png
+wait 1.2
+camat @ac -12 6 10 45 tour_$1_30_seq.png
+camat @ac -5 -2 4 35 tour_$1_31_intake_off.png
+partbreak cockpit_section
+wait 0.4
+camat @ac -12 6 10 45 tour_$1_32_seq.png
+wait 1.2
+camat @ac -12 6 10 45 tour_$1_33_seq.png
+camat @ac -4 3 6 35 tour_$1_34_cockpit_off.png
+camat @ac 0 16 -1 55 tour_$1_35_final_top.png
+camat @ac 7 -5 -9 45 tour_$1_36_final_under.png
+say END
+quit

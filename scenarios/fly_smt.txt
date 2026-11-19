@@ -1,0 +1,5 @@
+say START MiG-29SMT flight
+include spawn.txt MiG29SMT
+packcheck
+include flight.txt smt
+say END

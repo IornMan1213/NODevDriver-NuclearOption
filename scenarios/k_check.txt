@@ -1,0 +1,43 @@
+say START K airframe $1
+click SINGLEPLAYER
+wait 3
+click Free Flight - Heartland
+wait 3
+click START MISSION
+wait 40
+click Boscali Defense Force
+wait 5
+base boscali_north
+wait 4
+click Select Aircraft
+wait 3
+pickac $1
+wait 6
+shot k_$1_select.png
+pickopt Kh-29T
+wait 2
+dropdowns
+click Purchase
+wait 3
+click FLY
+wait 25
+kcheck
+probe
+wait 5
+shot k_$1_probe.png
+wait 6
+wingfold
+wait 6
+shot k_$1_folded.png
+wait 9
+include $2
+runway
+wait 5
+tvtest
+wait 4
+shot k_$1_tv.png
+include look.txt $1
+include flight.txt $1
+tvpoint
+wait 50
+say END

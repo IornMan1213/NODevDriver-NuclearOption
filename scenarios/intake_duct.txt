@@ -1,0 +1,20 @@
+say START intake ducts $1
+include spawn.txt $1
+wait 5
+hold 30
+wait 4
+view -0.72 -1.0 1.6 -0.78 -0.62 -2.86 50 duct_$1_L_inside.png
+view 0.72 -1.0 1.6 0.78 -0.62 -2.86 50 duct_$1_R_inside.png
+view -0.66 -1.06 3.65 -0.84 -0.89 -2.16 40 duct_$1_L_close.png
+view -1.8 -2.04 4.85 -0.75 -0.99 0.35 35 duct_$1_L_angle.png
+view -0.5 -1.14 22.3 -0.75 -0.99 0.35 8 duct_$1_L_far.png
+lodbias 0.04
+wait 2
+view -0.66 -1.06 3.65 -0.84 -0.89 -2.16 40 duct_$1_L_close_lod1.png
+view -1.8 -2.04 4.85 -0.75 -0.99 0.35 35 duct_$1_L_angle_lod1.png
+lodbias 1
+wait 1
+camat @ac -6 4 10 35 duct_$1_front_left.png
+fps 3
+say END
+quit

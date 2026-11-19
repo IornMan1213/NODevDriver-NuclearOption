@@ -1,0 +1,16 @@
+say START livery kit
+liveryupload MiG29KitTest
+buttons
+click WORKSHOP
+wait 3
+buttons
+click UPLOAD
+wait 3
+buttons
+shot kit_upload_page
+click Aircraft Livery
+wait 3
+buttons
+shot kit_upload_livery
+say END
+quit

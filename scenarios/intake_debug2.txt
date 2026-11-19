@@ -1,0 +1,8 @@
+say START intake debug 2
+include spawn.txt MiG29
+wait 5
+matinfo MiG29_duct_intake_L
+matinfo MiG29_skin_intake_L
+matinfo MiG29_well
+say END
+quit

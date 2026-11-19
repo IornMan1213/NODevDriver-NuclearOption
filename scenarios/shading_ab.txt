@@ -1,0 +1,17 @@
+say START MiG-29 shading elimination
+include spawn.txt MiG29
+runway
+wait 5
+sun
+include ab_views.txt 1_as_is
+skintex _Livery @white
+skintex _Basecolor @white
+wait 1
+include ab_views.txt 2_white
+skintex _Normal @flatnormal
+wait 1
+include ab_views.txt 3_white_flatnormal
+skinshadow none
+wait 1
+include ab_views.txt 4_white_flatnormal_noshadow
+say END

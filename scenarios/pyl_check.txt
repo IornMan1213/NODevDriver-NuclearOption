@@ -1,0 +1,13 @@
+say START pylons and radar $1
+include spawn.txt $1
+wait 5
+pylons check
+radarinfo
+view 0 -6 -1 0 -0.3 0.6 70 pyl_$1_under_loaded.png
+wait 2
+unload Middle Pylons
+unload Outer Pylons
+wait 1
+pylons check
+view 0 -6 -1 0 -0.3 0.6 70 pyl_$1_under_empty.png
+wait 2

@@ -1,0 +1,9 @@
+say START stock intakes $1
+include spawn.txt $1
+wait 5
+hold 30
+wait 4
+camat @ac 0 -0.3 14 22 stock_$1_front.png
+camat @ac -3 -1 9 30 stock_$1_front_left.png
+say END
+quit

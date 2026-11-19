@@ -1,0 +1,27 @@
+say START pylons empty at spawn $1
+click SINGLEPLAYER
+wait 3
+click Free Flight - Heartland
+wait 3
+click START MISSION
+wait 40
+click Boscali Defense Force
+wait 5
+base boscali_north
+wait 4
+click Select Aircraft
+wait 3
+pickac $1
+wait 4
+dropdowns
+pick 4 0
+wait 1
+pick 5 0
+wait 1
+click Purchase
+wait 3
+click FLY
+wait 25
+pylons check
+view 0 -6 -1 0 -0.3 0.6 70 pylspawn_$1.png
+wait 2

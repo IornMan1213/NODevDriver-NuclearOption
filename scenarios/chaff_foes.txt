@@ -1,0 +1,8 @@
+say START foe loadouts
+include spawn.txt MiG29
+wait 3
+foe Multirole1 22000 0
+foe Fighter1 24000 0
+foe SmallFighter1 26000 0
+say END
+quit

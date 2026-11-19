@@ -1,0 +1,20 @@
+say START intake doors $1
+include spawn.txt $1
+wait 10
+state
+view -0.66 -1.06 3.65 -0.84 -0.89 -2.16 40 door_$1_closed_close.png
+view -1.8 -2.04 4.85 -0.75 -0.99 0.35 35 door_$1_closed_angle.png
+view 0.66 -1.06 3.65 0.84 -0.89 -2.16 40 door_$1_closed_close_R.png
+view -0.72 -1.0 1.6 -0.78 -0.62 -2.86 50 door_$1_closed_inside.png
+hold 30
+wait 4
+view -0.66 -1.06 3.65 -0.84 -0.89 -2.16 40 door_$1_open_close.png
+view -0.70 -1.25 1.75 -0.72 -0.70 1.0 60 door_$1_open_roof.png
+view -1.8 -2.04 4.85 -0.75 -0.99 0.35 35 door_$1_open_angle.png
+setgear false
+wait 6
+view -0.66 -1.06 3.65 -0.84 -0.89 -2.16 40 door_$1_open_gearup.png
+camat @ac -2.5 3 4 30 door_$1_lerx_top.png
+camat @ac 0 5 1 35 door_$1_lerx_above.png
+say END
+quit

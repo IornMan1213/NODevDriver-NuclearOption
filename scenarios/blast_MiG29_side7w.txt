@@ -1,0 +1,8 @@
+say START blast MiG29 wing height
+include spawn.txt MiG29
+wait 3
+blastrays 19 -7 -0.42 -2
+blasttest 19 -7 -0.42 -2
+wait 6
+say END
+quit

@@ -1,0 +1,9 @@
+say START break every part $1
+include spawn.txt $1
+wait 5
+hold 30
+wait 3
+partshots dmg_$1 60
+wait 130
+say END
+quit

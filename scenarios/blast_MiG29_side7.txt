@@ -1,0 +1,9 @@
+say START blast MiG29 side7
+include spawn.txt MiG29
+wait 3
+parts
+blasttest 19 -7 0 -2
+wait 6
+parts
+say END
+quit

@@ -1,0 +1,5 @@
+view -3.4 2.3 -8.4 -1.92 1.7 -6.6 28 ant_$1_fin_left.png
+view 3.4 2.3 -8.4 1.92 1.7 -6.6 28 ant_$1_fin_right.png
+view 0 2.6 -13 0 1.4 -6.4 32 ant_$1_fins_behind.png
+view 2.6 1.7 0.9 0 0.85 1.9 30 ant_$1_dorsal.png
+view 4.0 0.9 1.9 0 0.85 1.9 28 ant_$1_dorsal_side.png

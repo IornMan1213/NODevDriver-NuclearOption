@@ -1,0 +1,11 @@
+say START cobra $1
+include spawn.txt $1
+wait 5
+gtest 0
+wait 4
+assist true
+cobra 3
+wait 1
+assist false
+wait 4
+assist true

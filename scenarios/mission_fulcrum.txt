@@ -1,0 +1,19 @@
+say START mission fulcrum
+click SINGLEPLAYER
+wait 3
+buttons
+click Missions
+wait 3
+buttons
+shot ms_1_list.png
+click Operation Fulcrum
+wait 3
+shot ms_2_selected.png
+click START MISSION
+wait 45
+buttons
+shot ms_3_started.png
+wait 20
+shot ms_4_later.png
+say END
+quit

@@ -1,0 +1,21 @@
+say START view switch $1
+include spawn.txt $1
+wait 5
+say FIRST cockpit view
+caminfo
+renderers pilot
+rnear 0 0.8 3.55 2.5
+shot vs_$1_first.png
+wait 2
+camstate orbit
+wait 3
+shot vs_$1_orbit.png
+wait 2
+camstate cockpit
+wait 3
+say AFTER back in the cockpit
+caminfo
+renderers pilot
+rnear 0 0.8 3.55 2.5
+shot vs_$1_after.png
+wait 2
